@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tsuyoshi A. — Contact</title>
+<meta name="description" content="Tsuyoshi A. へのお問い合わせ、SNSリンク。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="logotype">Tsuyoshi <span>A.</span></a>
+    <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About &amp; Gear</a></li>
+      <li><a href="discography.html">Discography</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="section" style="border-top:none; padding-bottom: 2rem;">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1 style="font-size: clamp(2rem, 4vw, 2.8rem); max-width: 14ch;">お問い合わせ。</h1>
+    <p class="measure muted">ライブのご依頼、楽曲のご相談などお気軽にご連絡ください。</p>
+  </div>
+</header>
+
+<section class="section" style="border-top:none;">
+  <div class="wrap contact-layout">
+    <div>
+      <div class="section-head" style="margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.3rem;">Message</h2>
+      </div>
+      <form class="contact-form" action="mailto:contact@example.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">お名前</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+        <div class="field">
+          <label for="email">メールアドレス</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div class="field">
+          <label for="message">メッセージ</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="align-self: flex-start;">送信する</button>
+        <p class="form-note">送信するとお使いのメールソフトが起動します。アドレスは仮のものです、公開前に contact@example.com を差し替えてください。</p>
+      </form>
+    </div>
+
+    <div>
+      <div class="section-head" style="margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.3rem;">Elsewhere</h2>
+      </div>
+      <ul class="social-list">
+        <li>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">
+            <span>Instagram</span>
+            <span class="glyph">↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/" target="_blank" rel="noopener">
+            <span>X (Twitter)</span>
+            <span class="glyph">↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/" target="_blank" rel="noopener">
+            <span>YouTube</span>
+            <span class="glyph">↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://open.spotify.com/" target="_blank" rel="noopener">
+            <span>Spotify</span>
+            <span class="glyph">↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/" target="_blank" rel="noopener">
+            <span>GitHub</span>
+            <span class="glyph">↗</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Tsuyoshi A.</span>
+    <nav>
+      <a href="contact.html">Contact</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
