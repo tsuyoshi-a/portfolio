@@ -3,131 +3,111 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tsuyoshi A. — Home</title>
-<meta name="description" content="Tsuyoshi A. のオフィシャルポートフォリオサイト。音楽、使用機材、ディスコグラフィー、最新情報を掲載。">
+<title>Tsuyoshi A.</title>
+<meta name="description" content="Tsuyoshi A. のオフィシャルサイト。ギタリスト / 作編曲家。bitbird, exobolt 等から楽曲をリリース。ディスコグラフィー、使用機材、最新情報を掲載。">
+<meta property="og:title" content="Tsuyoshi A.">
+<meta property="og:description" content="ギタリスト / 作編曲家 Tsuyoshi A. のオフィシャルサイト。">
+<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="logotype">Tsuyoshi <span>A.</span></a>
-    <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+<header class="site-header">
+  <div class="header-bar">
+    <a href="index.html" class="logotype">Tsuyoshi A.</a>
+    <button class="nav-toggle" aria-label="メニュー" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
     </button>
-    <ul class="nav-links">
-      <li><a href="index.html" aria-current="page">Home</a></li>
-      <li><a href="about.html">About &amp; Gear</a></li>
-      <li><a href="discography.html">Discography</a></li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-
-<header class="hero">
-  <svg class="hero-contour" viewBox="0 0 600 500" fill="none" aria-hidden="true">
-    <path d="M40 420C140 380 180 300 140 230C100 160 160 90 260 80C360 70 420 140 500 120" stroke="#c89b5c" stroke-width="1"/>
-    <path d="M10 360C110 330 150 260 110 200C70 140 140 80 240 70C340 60 400 120 480 100" stroke="#93a390" stroke-width="1"/>
-    <path d="M70 470C170 430 210 350 170 280C130 210 190 130 290 120" stroke="#3a4a3d" stroke-width="1"/>
-  </svg>
-  <div class="wrap">
-    <p class="hero-kicker">Guitarist / Composer</p>
-    <h1>音と静けさのあいだで、<br>音楽をつくっている。</h1>
-    <p class="lede">Tsuyoshi A. のオフィシャルサイトへようこそ。自然の呼吸を映した音づくりと、使用機材、これまでの作品、最新情報をここに記録しています。</p>
-    <div class="hero-actions">
-      <a href="discography.html" class="btn btn-primary">作品を聴く</a>
-      <a href="about.html" class="btn btn-ghost">About &amp; Gear</a>
-    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">home</a></li>
+        <li><a href="about.html">about / gears</a></li>
+        <li><a href="discography.html">discography</a></li>
+        <li><a href="news.html">news</a></li>
+        <li><a href="works.html">works</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
-<main>
-  <section class="section">
-    <div class="wrap">
-      <div class="preview-grid">
-        <div>
-          <div class="section-head">
-            <h2>News</h2>
-            <a href="news.html" class="muted">すべて見る</a>
-          </div>
-          <ul class="news-list">
-            <li class="entry-row">
-              <span class="entry-date">2026.09.01</span>
-              <div class="entry-body">
-                <h3>新曲「谷風」配信開始</h3>
-                <p>各種ストリーミングサービスにて配信スタート。</p>
-              </div>
-            </li>
-            <li class="entry-row">
-              <span class="entry-date">2026.07.14</span>
-              <div class="entry-body">
-                <h3>下北沢 Live Haven にて弾き語りライブ</h3>
-                <p>夏の夜、小さな会場での一夜限りの演奏。</p>
-              </div>
-            </li>
-            <li class="entry-row">
-              <span class="entry-date">2026.05.20</span>
-              <div class="entry-body">
-                <h3>ミニアルバム『雑木林』リリース</h3>
-                <p>全5曲、森の情景をテーマにした作品集。</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+<!-- ヒーロー: 背景画像は images/hero/hero.jpg を差し替えてください -->
+<section class="hero" style="background-image: url('images/hero/hero.jpg');">
+  <div class="hero-inner">
+    <p class="hero-copy">mindscape ep available.</p>
+    <a class="btn-fill" href="https://example.com/mindscape" target="_blank" rel="noopener">listen here 🎧</a>
+  </div>
+</section>
 
-        <div>
-          <div class="section-head">
-            <h2>Discography</h2>
-            <a href="discography.html" class="muted">すべて見る</a>
-          </div>
-          <ul class="release-list">
-            <li class="release">
-              <div class="release-art">
-                <svg viewBox="0 0 132 132" aria-hidden="true">
-                  <rect width="132" height="132" fill="#182119"/>
-                  <path d="M-10 90C20 70 40 40 20 10" stroke="#c89b5c" stroke-width="1" fill="none"/>
-                  <path d="M-10 60C30 50 50 20 30 -10" stroke="#3a4a3d" stroke-width="1" fill="none"/>
-                </svg>
-              </div>
-              <div>
-                <p class="release-title">谷風</p>
-                <p class="release-meta">Single · 2026</p>
-              </div>
-              <span class="release-type">EP</span>
-            </li>
-            <li class="release">
-              <div class="release-art">
-                <svg viewBox="0 0 132 132" aria-hidden="true">
-                  <rect width="132" height="132" fill="#141c17"/>
-                  <circle cx="66" cy="66" r="40" stroke="#93a390" stroke-width="1" fill="none"/>
-                  <circle cx="66" cy="66" r="24" stroke="#c89b5c" stroke-width="1" fill="none"/>
-                </svg>
-              </div>
-              <div>
-                <p class="release-title">雑木林</p>
-                <p class="release-meta">Mini Album · 2026</p>
-              </div>
-              <span class="release-type">5 tracks</span>
-            </li>
-          </ul>
-        </div>
-      </div>
+<section class="section">
+  <div class="wrap">
+    <div class="art-grid">
+      <!-- ▼ 1枚追加するときはこの div をコピーして画像パスと alt を書き換えてください -->
+      <div class="art-item"><div class="art"><img src="images/artwork/hakumei.jpg" alt="薄明 (ft. q'yul)"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/velvet-glide.jpg" alt="Velvet Glide"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/mindscape-ep.jpg" alt="mindscape ep"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/ordinary-days.jpg" alt="ordinary days"></div></div>
+
+      <div class="art-item"><div class="art"><img src="images/artwork/just-wanna-feel-good.jpg" alt="just wanna feel good"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/reminisce.jpg" alt="reminisce w/ Wavfire"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/starlight.jpg" alt="starlight (ft.ねんね)"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/amidst.jpg" alt="amidst"></div></div>
+
+      <div class="art-item"><div class="art"><img src="images/artwork/junpyo.jpg" alt="純氷"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/amidst-ep.jpg" alt="amidst ep"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/anew.jpg" alt="anew w/nenne"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/space-boyz.jpg" alt="Space Boyz (ft. Christian Hayward)"></div></div>
+
+      <div class="art-item"><div class="art"><img src="images/artwork/good-days.jpg" alt="Good Days"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/evergreen.jpg" alt="evergreen"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/elevation.jpg" alt="elevation"></div></div>
+      <div class="art-item"><div class="art"><img src="images/artwork/sundown.jpg" alt="sundown"></div></div>
     </div>
-  </section>
-</main>
+
+    <p class="center" style="margin-top: 72px;">
+      <a class="btn-fill is-compact" href="discography.html">view entire catalog here 💿</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-label">– news –</h2>
+    <div class="news-grid">
+
+      <article class="news-item">
+        <h2><a href="news.html">M3春 WE DIE YOUNG『AFTERLIFE vol.1』tr.3</a></h2>
+        <p>2026 4/26に開催されるM3春向け新作音楽アルバムの情報です。WE DIE YOUNG新アルバム『AFTERLIFE vol.1』に楽曲が収録されています。</p>
+        <p class="news-date">2026年4月18日</p>
+      </article>
+
+      <article class="news-item">
+        <h2><a href="news.html">Dennou.wav「concrete.」</a></h2>
+        <p>◆新曲お知らせ◆ Dennou.wavより新アルバム「concrete.」tr.2にTsuyoshi A. の楽曲が収録されています。</p>
+        <p class="news-date">2026年4月9日</p>
+      </article>
+
+      <article class="news-item">
+        <h2><a href="news.html">wavforme 冬コミ C107『Cities: Neonlights 3』</a></h2>
+        <p>2025コミケ冬に向けたアルバム『Cities: Neonlights 3』にtr.8 – Tsuyoshi A. の楽曲が収録されています。</p>
+        <p class="news-date">2026年3月31日</p>
+      </article>
+
+      <article class="news-item">
+        <h2><a href="news.html">10/19 -Oppidan- tokyo show</a></h2>
+        <p>I'm supporting Oppidan (UK) circus tokyo show 10/19.</p>
+        <p class="news-date">2024年9月17日</p>
+      </article>
+
+    </div>
+  </div>
+</section>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <span>&copy; 2026 Tsuyoshi A.</span>
-    <nav>
-      <a href="contact.html">Contact</a>
-      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-    </nav>
-  </div>
+  2026 – tsuyoshi a.
 </footer>
 
 <script src="js/main.js"></script>
