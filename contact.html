@@ -568,7 +568,13 @@ img { display: block; max-width: 100%; }
   color: var(--text-dim);
   font-size: 0.95rem;
 }
-
+   
+@media (max-width: 900px) {
+  .header-bar { position: relative; justify-content: flex-start; }
+  .header-bar > nav { order: 1; }
+  .nav-toggle { order: 2; margin-left: auto; }
+  .nav-links { top: 100%; }
+}
 </style>
 </head>
 <body>
